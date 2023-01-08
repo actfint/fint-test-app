@@ -17,7 +17,7 @@ try:
 
 except KeyError:
     logger.info("No auth plugin found, using default noauth")
-    from fint_core.auth import (
+    from fint_core.noauth import (
         User,
         current_user,
         update_user,

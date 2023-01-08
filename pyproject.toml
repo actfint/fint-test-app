@@ -39,7 +39,7 @@ text = "BSD 3-Clause License"
 ignore = [".*", ]
 
 [project.entry-points.fps_router]
-fint_test_app = "fint_test_app.routes"
+fint-test-app = "fint_test_app.routes"
 
 
 [tool.hatch.version]
